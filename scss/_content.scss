@@ -41,9 +41,11 @@
       background: transparent;
       color: #333;
     }
+    & ion-icon {
+      position: relative;
+      color: $primary-color;
+      top: 5px;
+      font-size: 1.5em;
+    }
   }
-  //   &__chatbtn {
-  //     background: transparent;
-  //     color: #333;
-  //   }
 }

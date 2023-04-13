@@ -12,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  padding: 100px;
+  padding: 62px;
   background: #fff;
   transition: 0.5s;
 }
@@ -96,4 +96,28 @@
 .content button.content__chatbtn {
   background: transparent;
   color: #333;
+}
+.content button ion-icon {
+  position: relative;
+  color: #e91e63;
+  top: 5px;
+  font-size: 1.5em;
+}
+
+.contact {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  gap: 30px;
+}
+.contact__link {
+  list-style: none;
+}
+.contact__link a {
+  text-decoration: none;
+  font-size: 1.75em;
+  color: #333;
+}
+.contact__link a:hover {
+  color: #2196f3;
 }/*# sourceMappingURL=main.css.map */
